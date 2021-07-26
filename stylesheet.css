@@ -1,0 +1,212 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ここからCSSを書いていきましょう */
+header{
+  background-color:rgba(34, 49, 52, 0.9);
+  height:65px;
+  width: 100%;
+  position: fixed;            
+  top: 0;            
+  z-index: 10;
+}
+
+.logo{
+  float:left;
+  width:124px;
+  margin-top:20px;
+  
+}
+
+.header-right{
+  float:right;
+  background-color:rgba(255, 255, 255, 0.3);
+  transition:all 0.5s;
+  
+}
+
+.header-right:hover{
+  background-color:rgba(255, 255, 255, 0.5);
+  
+}
+
+.loguin{
+  display:block;
+  padding-left:25px;
+  padding-right:25px;
+  line-height:65px;
+  color:white;
+}
+
+.top-wrapper{
+  background-image:url(https://prog-8.com/images/html/advanced/top.png);
+  background-size:cover;
+  color:white;
+  padding-top:180px;
+  padding-bottom:100px;
+  
+}
+
+.container{
+  width:1170px;
+  margin-right:auto;
+  margin-left:auto;
+  text-align:center;
+}
+
+.top-wrapper h1{
+  opacity:0.7;
+  font-size:45px;
+  letter-spacing:5px;
+  
+}
+
+.top-wrapper p{
+  opacity:0.7;
+}
+
+.btn{
+  padding:8px 24px 8px 24px;
+  color:white;
+  opacity:0.8;
+  display:inline-block;
+  border-radius:4px;
+}
+
+.a{
+  background-color:#239b76;
+  margin-top:30px;
+}
+
+.z{
+  margin-top:15px;
+  margin-bottom:15px;
+}
+
+.b{
+  background-color:#3b5998;
+  margin-right:10px;
+}
+
+.c{
+  background-color:#55acee;
+  
+}
+
+.btn:hover{
+  opacity:1;
+}
+
+.fa{
+  margin-right:5px;
+}
+
+.lesson-wrapper{
+  background-color:#f7f7f7;
+  height:580px;
+  
+}
+.lessons{
+  float:left;
+  width:25%;
+  position: relative;
+}
+
+.heading{
+  padding-top:80px;
+  margin-bottom:50px;
+  color:#5f5d60;
+  font-weight: normal;
+}
+  
+.pp{
+  position: absolute;
+  top:90px;
+  width:100%;
+  color:white;
+}
+
+.txt-contents{
+  color:#b3aeb5;
+  width: 80%;            
+  display: inline-block;            
+  margin-top: 15px;            
+  font-size: 13px;
+  
+  
+}
+
+.messege{
+  text-align:center;
+  
+}
+
+.messege h2{
+  padding-top:80px;
+  font-weight: normal;
+  color:#5f5d60;
+}
+
+.messege h3{
+  padding-bottom:50px;
+  color:#5f5d60;
+}
+
+.aa{
+  background-color:#5dca88;
+  opacity:0.8;
+  padding:15px 40px 15px 40px;
+  color:white;
+  border-radius:4px;
+  cursor: pointer;            
+  box-shadow: 0 7px #1a7940;
+  display:inline-block;
+  margin-bottom:80px;
+}
+
+.aa:hover{
+  opacity:1;
+  cursor: pointer; 
+  
+}
+
+.aa:active{
+  box-shadow: none;
+  position: relative;
+  top:7px;
+}
+
+.bo{
+  border-top:1px solid #eee;
+  float:left;
+}
+
+.futa{
+  
+  width:124px;
+  padding-top:30px;
+  font-size:12px;
+}
+
+.txt-futb{
+  
+  padding-bottom:30px;
+  font-size:12px;
+  color:#b3aeb5;
+}
